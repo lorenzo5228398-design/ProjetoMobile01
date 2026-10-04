@@ -29,13 +29,15 @@ function getDevMenuHint() {
 }
 
 export default function HomeScreen() {
+  console.log("Hello World!");
+
   return (
     <ThemedView style={styles.container}>
       <SafeAreaView style={styles.safeArea}>
         <ThemedView style={styles.heroSection}>
           <AnimatedIcon />
           <ThemedText type="title" style={styles.title}>
-            Welcome to&nbsp;Expo
+            Hello World!
           </ThemedText>
         </ThemedView>
 
